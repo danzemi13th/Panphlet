@@ -9,8 +9,8 @@ body {
 
   .container{
       margin: 0 auto;
-      width: 95%;
-      padding:0 20px;
+      width: 100%;
+      padding:0 0;
 
   }
 
@@ -135,7 +135,7 @@ body {
 
   .topw{
      height:cover;
-     width:cover;
+     width:100%;
 
   }
  .shokai{
@@ -208,7 +208,7 @@ body {
 
 .c1{
    
-
+  float:left;
 
 
 }
@@ -318,4 +318,3 @@ to {
  .footer br{
       background-color:rgba(200, 200, 200, 0.35);
   }
-     

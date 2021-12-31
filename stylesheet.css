@@ -24,7 +24,8 @@ body {
   .fadeslide {
 	width: 540px;
 	height:405px;
-	  overflow:hidden;
+	overflow:hidden;
+	margin:auto;
 	z-index: 10;
 }
 .fadeslide img{

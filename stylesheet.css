@@ -21,13 +21,7 @@ body {
 
   }
 
-  .fadeslide {
-	width: 540px;
-	height:405px;
-	overflow:hidden;
-	margin:auto;
-	z-index: 10;
-}
+  
 .fadeslide img{
     width:540px;
     height:405px;

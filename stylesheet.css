@@ -20,11 +20,25 @@ body {
       background-color:white;
 
   }
+.fadeslide{
+    position:relative;
+    width:540px;
+    height:405px;
+    overflow:hidden;
+    z-index:10;
 
+}
   
 .fadeslide img{
     width:540px;
     height:405px;
+}
+
+.fadeslide div{
+    position:absolute;
+    top:0;
+    left:0;
+
 }
 
 .fadeslide div:nth-of-type(1) {

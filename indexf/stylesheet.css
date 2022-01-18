@@ -1,0 +1,297 @@
+html{
+    background-image: url(renga.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    margin: auto;
+    font-family: serif;
+  
+  }
+  
+  li{
+      list-style:none;
+  }
+
+  .container{
+      margin: 0 auto;
+      width:540px;
+      padding:0 0;
+      background-color:white;
+
+  }
+.fadeslide{
+    position:relative;
+    width:540px;
+    height:405px;
+    overflow:hidden;
+    z-index:10;
+
+}
+  
+.fadeslide img{
+    width:540px;
+    height:405px;
+}
+
+.fadeslide div{
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+.fadeslide div:nth-of-type(1) {
+	animation: fadeslide 40s 0s infinite both;
+	z-index: 1;
+}
+
+.fadeslide div:nth-of-type(2) {
+	animation: fadeslide 40s 5s infinite both;
+	z-index: 2;
+}
+
+.fadeslide div:nth-of-type(3) {
+	animation: fadeslide 40s 10s infinite both;
+	z-index: 3;
+}
+
+.fadeslide div:nth-of-type(4) {
+	animation: fadeslide 40s 15s infinite both;
+	z-index: 4;
+}
+.fadeslide div:nth-of-type(5) {
+	animation: fadeslide 40s 20s infinite both;
+	z-index: 5;
+}
+
+.fadeslide div:nth-of-type(6) {
+	animation: fadeslide 40s 25s infinite both;
+	z-index: 6;
+}
+
+.fadeslide div:nth-of-type(7) {
+	animation: fadeslide 40s 30s infinite both;
+	z-index: 7;
+}
+
+.fadeslide div:nth-of-type(8) {
+	animation: fadeslide 40s 35s infinite both;
+	z-index: 8;
+}
+
+
+
+
+
+
+
+@keyframes fadeslide {
+	0% { left: 0; opacity: 0; }
+	5% { left: 0; opacity: 1; }
+	20% { left: 0; opacity: 1; }
+	25% { left: 0; opacity: 0; }
+	26% { left: 100%; opacity: 0; }
+	100% { left: 100%; opacity: 0; }
+}
+ 
+  
+
+  
+
+  h2{
+      padding-top:0px;
+      font-size:40px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      color:rgba(255, 255, 255, 0.7);
+      
+
+  }
+
+
+  .top-wrapper{
+      text-align: center;
+     
+  }
+
+  .topw{
+     height:cover;
+     width:100%;
+
+  }
+ .shokai{
+     height:1000px;
+     background-color:white;
+     text-align:center;
+    
+     
+ }
+
+ h3{
+     font-size:40px;
+     color:rgba(0, 0, 0, 0.731);
+     text-align:center;
+     margin-top:75px;
+     padding-bottom:5px;
+     border-bottom: solid 1px rgba(128, 128, 128, 0.648);
+ }
+
+
+ .about{
+     text-align:center;
+     margin-bottom:50px;
+     
+ }
+ .about p{
+     color:rgba(34, 34, 34, 0.538);
+    
+
+ }
+
+
+
+
+.shokai img{
+   height:auto;
+   width:300px;
+}
+
+.contents1{
+    height:230px;
+    text-align:center;
+    padding-bottom:18px;
+    margin-right:15px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.648);
+    
+}
+
+.contents2{
+    height:230px;
+    text-align:center;
+    padding-bottom:18px;
+    padding-top:40px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.648);
+    
+}
+
+.contents3{
+    height:230px;
+    text-align:center;
+    padding-bottom:18px;
+    padding-top:40px;
+    margin-right:15px;
+  
+    
+}
+
+
+
+
+
+
+.contents1 a{
+    font-size:30px;
+    margin-left:100px;
+    height:50%;
+    color:black;
+    
+}
+.contents1 a:hover{
+    color:gray;
+    font-weight:bold;
+
+}
+
+
+.contents2 a{
+    font-size:30px;
+    
+    margin-right:100px;
+    height:50%;
+    color:black;
+    
+}
+.contents2 a:hover{
+    color:gray;
+    font-weight:bold;
+
+}
+
+.contents3 a{
+    font-size:28px;
+    
+    margin-left:30px;
+    height:50%;
+    color:black;
+    
+}
+.contents3 a:hover{
+    color:gray;
+    font-weight:bold;
+
+}
+
+.an2-fadeup {
+    
+    font-weight: bold;
+    animation-name: fadeup;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+@keyframes fadeup {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+ 
+
+ footer{
+     background-color:rgba(240, 240, 240, 1);
+     background-size:cover;
+     height:275px;
+     width:cover;
+     text-align: center;
+
+ }
+
+    .logo{
+     
+     float:left;
+     padding-left:15px;
+     padding-top:15px;
+     width:125px;
+     height:125px;
+     
+
+    }
+
+    .footer-right a{
+        float:right;
+        color:black;
+        font-size:15px;
+        padding-right:30px;
+        box-shadow:4px 4px;
+        display:block;
+        margin-right: 15px;
+
+      
+
+       
+    }
+
+    .footer-right a:hover{
+        box-shadow:none;
+        position:relative;
+        right:-5px;
+        bottom:-5px;
+        
+    }
+ .footer br{
+      background-color:rgba(200, 200, 200, 0.35);
+  }

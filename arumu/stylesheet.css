@@ -427,7 +427,7 @@ ul li.price{
 .map img{
   position: absolute;
   width: 450px;
-  height: 550px;
+  height: 600px;
   left: 48px;
   z-index:-20;
 }

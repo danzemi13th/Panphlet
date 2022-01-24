@@ -15,23 +15,23 @@ body {
 
   .container{
       margin: 0 auto;
-      width:540px;
+      width:600px;
       padding:0 0;
       background-color:white;
 
   }
 .fadeslide{
     position:relative;
-    width:540px;
-    height:405px;
+    width:600px;
+    height:450px;
     overflow:hidden;
     z-index:10;
 
 }
   
 .fadeslide img{
-    width:540px;
-    height:405px;
+    width:600px;
+    height:450px;
 }
 
 .fadeslide div{

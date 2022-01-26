@@ -116,7 +116,6 @@ body {
   }
 
   .topw{
-     height:cover;
      width:100%;
 
   }
@@ -268,8 +267,7 @@ to {
  footer{
      background-color:rgba(240, 240, 240, 1);
      background-size:cover;
-     height:300px;
-     width:cover;
+     height:275px;
      text-align: center;
 
  }

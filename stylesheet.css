@@ -246,7 +246,7 @@ body {
 }
 
 .an2-fadeup {
-    
+    font-size: 14px;
     font-weight: bold;
     animation-name: fadeup;
     animation-duration: 2s;

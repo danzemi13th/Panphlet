@@ -89,7 +89,7 @@ main{
 	display: none;
 }
 
-/* �T���l�C�� */
+/*スライドショー関連*/
 .cp_cssslider label {
 	margin: 5px 5px 0 5px;
 	border: 2px solid #ffffff;
@@ -122,7 +122,7 @@ li{
     list-style: none;
 }
 
-/*����͉��̃v���t�B�[��������*/
+/*プロフィール関連*/
 .First-Contents{
   position: relative;
   height: 800px;
@@ -173,7 +173,7 @@ li{
   padding-bottom: 100px;
 }
 
-/*sns�̃��S�֘A*/
+/*sns関連*/
 .sns{
   position: absolute;
   top: 420px;
@@ -304,6 +304,16 @@ ul li.price{
   margin-right: 15px;
   padding-right: 10px;
   padding-top: 10px;
+}
+
+.danger{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.danger p{
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .hissya-recommend{

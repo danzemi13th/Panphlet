@@ -270,6 +270,15 @@ ul li.price{
   padding-top: 10px;
 }
 
+.danjar{
+   padding-top: 5px;
+   text-align: center;
+}
+
+.danjar p{
+   font-size: 16px
+   font-weight: bold;
+}
 .hissya-recommend{
   color: white;
 }

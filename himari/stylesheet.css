@@ -16,7 +16,7 @@ html{
     position: fixed;
     padding: auto;
     top:0;
-    z-index :20;
+    z-index :30;
 }
 
 .header-logo{

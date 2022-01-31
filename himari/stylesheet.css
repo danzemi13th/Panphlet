@@ -1,0 +1,482 @@
+/*全体*/
+html{
+  font-family: serif;
+  background-attachment: fixed;
+  background-image:url("image-test/img/renga.jpg")
+}
+
+.hr{
+  height: 1px;
+  border: none;
+  border-top: 1px solid black;
+  margin: 10px;
+}
+/*固定ヘッダー*/
+.header{
+    position: fixed;
+    padding: auto;
+    top:0;
+    z-index :20;
+}
+
+.header-logo{
+  display: flex;
+}
+
+.header-logo img{
+  width:180px; 
+  height:80px;
+}
+
+.main-text{
+  font-size: 60px;
+  text-align: center;
+}
+
+.main-text p{
+  color: #FFF;
+}
+
+body{
+text-align: center;
+display: flex;
+flex-flow: column;
+min-height: 100vh;
+padding: 0;
+margin: 0;
+}
+
+div#center {
+width: 540px;
+text-align: left;
+margin: auto;
+background-color: #ffffff;
+background-attachment: fixed;
+}
+
+main{
+    flex: 1;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+/*スライドショー関連*/
+.slideshow{
+  position: relative;
+  padding-top: 80px;
+}
+.cp_cssslider {
+	width: 400px;
+	padding-top: 320px;
+	position: relative;
+	margin: 2em auto;
+	text-align: center;
+}
+
+.cp_cssslider > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s;
+	border-radius: 3px;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+  width: 400px;
+  height: 300px;
+}
+
+.cp_cssslider input[name='cp_switch'] {
+	display: none;
+}
+
+.cp_cssslider label {
+	margin: 5px 5px 0 5px;
+	border: 2px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	opacity: 0.6;
+	border-radius: 3px;
+}
+.cp_cssslider label:hover {
+	opacity: 0.9;
+}
+.cp_cssslider label img {
+	display: block;
+	width: 50px;
+	border-radius: 2px;
+}
+.cp_cssslider input[name='cp_switch']:checked + label {
+	border: 2px solid #FF7043;
+	opacity: 1;
+}
+.cp_cssslider input[name='cp_switch'] ~ img {
+	opacity: 0;
+}
+.cp_cssslider input[name='cp_switch']:checked + label + img {
+	opacity: 1;
+}
+
+li{
+    list-style: none;
+}
+
+/*プロフィール関連*/
+.First-Contents{
+  position: relative;
+  height: 800px;
+  background-color: cadetblue;
+}
+
+.main-text{
+   font-weight: 900;
+   font-size: 40px;
+   margin: 40px;
+   padding-top: 20px;
+   text-align: center;
+ }
+
+.box{
+  position: relative;
+}
+
+.box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box h1{
+  position: absolute;
+  top: 50px;
+  left: 210px;
+  font-size: 28px;
+  padding-bottom: 10px;
+  color: cadetblue;
+}
+
+.sub-text{
+  position: absolute;
+  top: 120px;
+  left: 83px;
+}
+
+ .sub-text p{
+   line-height: 1.3;
+   font-size: 16px;
+   color: cadetblue;
+ }
+
+.Second-Contents{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*sns関連*/
+.sns{
+  position: absolute;
+  top: 420px;
+  left: 60px;
+}
+.sns img{
+  width: 50px;
+  height: 50px;
+}
+.sns ul{
+  display: flex;
+}
+.sns li{
+  list-style: none;
+}
+li:nth-child(2){
+  margin-left:20px;
+}
+li:nth-child(3){
+  margin-left:20px;
+}
+li:nth-child(4){
+  margin-left:20px;
+}
+li:nth-child(5){
+  margin-left:20px;
+}
+
+.box26 {
+    position: relative;
+    margin: 2em 1em;
+    padding: 0.25em 2em;
+    border: solid 2px #95ccff;
+    border-radius: 3px 0 3px 0;
+}
+.box-title {
+    font-family:"sans-serif";
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 135px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 24px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+
+.box26 p{
+  font-size: 18px;
+}
+
+.Second-Contents h1{
+  font-size: 28px;
+  text-align: center;
+  border-bottom: 1px solid  black;
+}
+.Second-Contents img{
+  position: relative;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.Second-Contents-text{
+  float: left;
+}
+.Second-Contents p {
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+li {
+  display: inline;
+}
+
+ul li.rank{
+  background-color: cadetblue;
+  font-size: 32px;
+  margin-left: -20px;
+  margin-right: 20px;
+  color: white;
+}
+ul li.name{
+  font-size: 24px;
+  font-weight: 800;
+}
+ul li.price{
+  font-size: 20px;
+  float:right;
+  margin-right: 15px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.hissya-recommend{
+  color: white;
+}
+
+.hissya-recommend p{
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+  background-color: cadetblue;
+}
+
+.hissya-recommend-text {
+  margin-top: 10px;
+}
+
+.hissya-recommend-text p{
+  line-height: 1.5;
+  font-size: 17px;
+}
+.Third-Contents{
+  background-color: cadetblue;
+  position: relative;
+  height: 1300px;
+}
+
+.tentyou-art img{
+  width: 80px;
+  height: 300px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.tentyou-hitokoto{
+  position: absolute;
+  top: 40px;
+  left: 250px;
+  font-size: 20px;
+  font-weight: 900;
+  border: 1px solid white ;
+  border-collapse: separate;
+  border-spacing: 5px 3px;
+}
+
+.tentyou-hitokoto p{
+  color: white;
+}
+
+.tentyou-hukidasi img{
+  width: 410px;
+  height: 320px;
+  position: absolute;
+  top: 70px;
+  left: 140px;
+}
+
+.hukidasi-text{
+  position: absolute;
+  top: 165px;
+  left: 250px;
+}
+
+.hukidasi-text p{
+  line-height: 1.2;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+.recommend{
+  position: relative;
+}
+
+.recommend img{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.recommend-text{
+  position:absolute;
+  top: 400px;
+  left: 43px;
+}
+
+.recommend-text p{
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  color: cadetblue;
+}
+
+.recommend-explain{
+  position:absolute;
+  top: 400px;
+  left: 160px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.recommend-explain p{
+  line-height: 1.2;
+  letter-spacing: 0.3em;
+  font-size: 18px;
+  color: white;
+}
+
+
+
+.map{
+  position: relative;
+  padding-top: 600px;
+  background-image :url("image-test/img/���g��.png");
+  background-repeat: no-repeat;
+  background-size : 400px 620px;
+  background-position :center bottom;
+  z-index: 20;
+}
+
+.map img{
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  left: 48px;
+  z-index: -20;
+}
+
+.map-text {
+  text-align: center;
+  padding: auto;
+}
+
+.map-text p{
+  font-size: 28px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.gmap iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gmap-text{
+  text-align: center;
+  padding: auto;
+}
+.gmap-text p{
+  font-size: 28px;
+  color: white;
+}
+
+.gmap-address{
+  text-align: center;
+  padding: auto;
+}
+
+.gmap-address p{
+  font-size: 16px;
+  color: white;
+}
+
+.toukou p{
+  font-size: 24px;
+  color: white;
+}
+
+.gmap {
+  z-index: 50;
+}
+
+footer{
+    background-color:rgba(240, 240, 240, 1);
+    background-size:cover;
+    height:275px;
+    width:cover;
+    text-align: center;
+}
+
+.logo{
+  float:left;
+  padding-left:15px;
+  padding-top:15px;
+  width:125px;
+  height:125px;
+}
+
+.footer-right a{
+  float:right;
+  color:black;
+  font-size:15px;
+  padding-right:30px;
+  margin-right: 15px;
+  box-shadow:4px 4px;
+  display:block;
+}
+
+.footer-right a:hover{
+  box-shadow:none;
+  position:relative;
+  right:-5px;
+  bottom:-5px;
+}
+.footer br{
+  background-color:rgba(240, 240, 240, 1);
+}

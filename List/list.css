@@ -1,0 +1,173 @@
+html{
+    font-family: serif;
+    background-attachment: fixed;
+    background-image:url("写真/renga.jpg")
+}
+
+.hr{
+    height: 1px;
+    border: none;
+    border-top: 2px solid rgb(91, 140, 180);
+    margin: 5px;
+  }
+
+.header{
+    position: fixed;
+    padding: auto;
+    top: 0;
+    z-index: 20;
+}
+
+.header-logo{
+    display: flex;
+    height: auto;
+}
+
+.header-logo img{
+    object-fit: cover;
+    width: 180px;
+    height: 70px;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+    
+div#center{
+    margin: 0 auto;
+    width:540px;
+    padding:0 0;
+    background-color:white;
+    text-align: left;
+}
+
+.kabegami{
+    padding-top: 70px;
+}
+
+.kabegami img{
+    width: 540px;
+    height: 150px;
+}
+
+.kabegami P{
+    position: absolute;
+    color :white;
+    font-size: 3em;
+    top: 17%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+
+  .Content{
+      position: relative;
+      display: flex;
+      background-color:rgb(239, 241, 252);
+  }
+
+  .gaisou {
+      margin-left: 10px;
+  }
+
+  .image img{
+      height: 100px;
+      width: 155px;
+      margin-top: 40px;
+      margin-right: 10px;
+      
+
+  }
+
+  .rogo {
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+
+  .rogo img{
+      height: 45px;
+      width: 45px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+  }
+
+  .rightrogo{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: flex;
+  }
+
+  .rightrogo img{
+      height: 40px;
+      width: 40px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+  }
+
+  .text{
+      margin-left: 30px;
+      padding-bottom: 20px;
+  }
+
+  .text p{
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      font-weight: 900;
+  }
+
+  .name{
+      color: black;
+      display: inline-block;
+      font-size: 24px;
+      margin-bottom: 5px;
+      font-weight: 900;
+  }
+
+  footer{
+    background-color:rgb(240, 240, 240, 1);
+    background-size:cover;
+    height:200px;
+    width:cover;
+    text-align: center;
+
+}
+
+   .logo{
+    float:left;
+    padding-left:15px;
+    padding-top:15px;
+    width:125px;
+    height:125px;
+   }
+
+   .footer-right a{
+       float:right;
+       color:black;
+       font-size:15px;
+       padding-right:30px;
+       box-shadow:4px 4px;
+       display: block;
+       margin-top: 150px;
+       margin-right: 15px;
+   }
+
+   .footer-right a:hover{
+       box-shadow:none;
+       position:relative;
+       right:-5px;
+       bottom:-5px;
+       
+   }
+   .footer br{
+     background-color:rgba(240, 240, 240, 1);
+ }
